@@ -1,0 +1,46 @@
+.editForm{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+    height: 92vh;
+    margin-left: 12vw;
+    overflow-y:scroll;
+    background-color: rgb(241, 234, 255);
+    overflow-y: scroll;
+}
+.editCard{
+    width: 50rem;
+    background-color: white;
+    height: 90%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+.editCard table{
+    margin: auto;
+}
+.editCard table th,td{
+    width: 20rem;
+    text-align: left;
+}
+.editCard input{
+    padding: 4px 8px;
+    outline: none;
+}
+.editHor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+.marLeft{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.saveinfo{
+    background-color: rgb(63, 47, 94);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 16px;
+}

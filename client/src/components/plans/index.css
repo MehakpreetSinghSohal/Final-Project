@@ -1,0 +1,16 @@
+.planCont{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+    height: 92vh;
+    margin-left: 12vw;
+    overflow-y:scroll;
+    background-color: rgb(241, 234, 255);
+    overflow-y: scroll;
+}
+
+.planCont img{
+    margin-top: 2rem;
+    width: 60vw;
+    height: 90%;
+}

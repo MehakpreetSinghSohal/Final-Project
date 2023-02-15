@@ -1,0 +1,47 @@
+.reqListCont{
+    display: flex;
+    flex-direction: column;
+    width: 88vw;
+    height: 92vh;
+    margin-left: 12vw;
+    z-index: -1;
+    background-color: rgb(241, 234, 255);
+    overflow-y: scroll;
+}
+.reqListCard{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.reqListCard img{
+    width: 8rem;
+    height: 5.2rem;
+}
+.reqListDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reqListDetail div,h3{
+    margin-left: 1rem;
+}
+.reqListDetail p{
+    font-size: 14px;
+}
+
+.reqAccBtn{
+    background-color: rgb(39, 158, 105);
+    color: white;
+    padding: 10px;
+
+}
+.reqRejBtn{
+    background-color: rgb(241, 75, 15);
+    color: white;
+    padding: 10px;
+}

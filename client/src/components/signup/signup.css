@@ -1,0 +1,38 @@
+.signFormCont{
+    background-color: rgb(241, 234, 255);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 3rem;
+    
+}
+.signHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.signForm{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    width: 40rem;
+    height: 80vh;
+    padding: 3rem 4rem;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+.signForm input{
+    font-size: 1rem;
+    padding: 10px 12px;
+    border: 0;
+    border-bottom: 2px solid rgb(169, 169, 169);
+    outline: none;
+}
+
+.signSubmit{
+    background-color: rgb(63, 47, 94);
+    border: 0;
+    outline: none;
+    color: white;
+}
